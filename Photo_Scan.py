@@ -9,7 +9,7 @@ from tqdm import tqdm  # Progress bar
 
 # Load configuration
 print("📥 Loading configuration...")
-with open("info.json", "r") as f:
+with open("config/info.json", "r") as f:
     config = json.load(f)
 
 # Resolve absolute paths
