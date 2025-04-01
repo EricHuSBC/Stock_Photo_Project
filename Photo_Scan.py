@@ -16,7 +16,7 @@ with open("config/info.json", "r") as f:
 base_dir = config["base_photo_dir"]
 selected_dir = os.path.join(base_dir, config["selected_photo_dir"])
 meta_dir = os.path.join(base_dir, config["meta_dir"])
-edit_dir = os.path.join(base_dir, "Needs_Edit")
+edit_dir = os.path.join(base_dir, "needs_edit")
 log_file = os.path.join(meta_dir, config["processed_log_file"])
 
 # Load scan settings
