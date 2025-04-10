@@ -12,3 +12,4 @@ __pycache__/
 /config/
 info.json
 create_config.py
+yolov8s.pt
